@@ -10,7 +10,7 @@ Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以
 
 首先，先来看一张效果动图吧~
 
-![Awesome Marp 整体效果](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231953465.gif)
+![Awesome Marp 整体效果](./images/AwesomeMarp整体效果.gif)
 
 怎么样？如果你也使用过 Marp 原生的 theme，一定会发现 Awesome-Marp 变化真的很大了。是的，我基于 Marp 的`default` 主题，做了不小的改动。
 
@@ -22,17 +22,17 @@ Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以
 
 - Markdown 
 
-![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309232025907.png)
+![](./images/Markdown.png)
 
 - Markdown 编辑器（如 VS Code）
 
-![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309232026947.png)
+![](./images/Markdown编辑器.png)
 
 - Marp
 
-![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309232026758.png)
+![](./images/Marp1.png)
 
-![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309232026847.png)
+![](./images/Marp2.png)
 
 - 本项目用到的工具：软件 [Visual Studio Code](https://code.visualstudio.com)、插件 [Marp for VScode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
 
@@ -40,42 +40,42 @@ Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以
 
 - 支持 4 种**页面分栏**的样式：分别是两栏五五分、两栏六四分、两栏七三分和三栏三三分
 
-![4种页面分栏的呈现效果](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231933161.gif)
+![4种页面分栏的呈现效果](./images/页面分栏.gif)
 
 - 支持 4 种**非嵌套列表的分栏**样式：
 
-![list列表分栏呈现的效果](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231930498.gif)
+![list列表分栏呈现的效果](./images/列表分栏.gif)
 
 - 支持导航进度栏：
 
-![导航进度栏的效果](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231930521.gif)
+![导航进度栏的效果](./images/导航进度栏.gif)
 
 - 支持 5 种类型的封面页：
 
-![5种类型封面页的效果](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231931047.gif)
+![5种类型封面页的效果](./images/封面页.gif)
 
 - 支持 3 种类型的目录页：
 
-![3种目录页的效果](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231931781.gif)
+![3种目录页的效果](./images/目录页.gif)
 
 - 支持 5 种自定义「引用盒子」（类似于 Beamer 的定理框）：
 
-![5种自定义引用盒子的呈现效果](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231933733.gif)
+![5种自定义引用盒子的呈现效果](./images/引用盒子.gif)
 
 - 小彩蛋：链接会自动增加一个小尾巴：
 
-![链接的呈现效果](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231934485.gif)
+![链接的呈现效果](./images/链接.gif)
 
 - 还可以自定义实现图片的水平排列方式：居中对齐、居左对齐或居右对齐 
 - …… 
 
 总结一下，目前 Awesome Marp 1.0 版本支持的自定义样式共 21 个，使用时只需要在页面指定局部指令，像这样： `<!-- _class: trans -->`）
 
-![21 种自定义样式](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309232036806.png)  
+![21 种自定义样式](./images/21种自定义样式.png)  
 
 不光如此，我还设计了 6 种主题色，想要切换 theme，只需要可在 YAML 区定义 `theme: <theme_name>`：
   
-![6种主题颜色](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309232037683.png)
+![6种主题颜色](./images/6种主题颜色.png)
   
 
 ## 如何使用 Awesome Marp？
