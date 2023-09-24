@@ -16,9 +16,11 @@ Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以
 
 这是一个纯 CSS 的项目，所有的效果都是 CSS 语言实现的。因为并没有前端基础，所以我是一边学一边改，代码还有不少可以再完善优化的地方。但，完成比完善更重要嘛，一些小的问题可以日后迭代更新。于是，就决定将 Awesome Marp 上线了！
 
-本着「开箱即用」的原则，我将本项目文件夹打包上传到了[GitHub](https://github.com/favourhong/Awesome-Marp)和 [Gitee](https://gitee.com/favourhong/awesome-marp)。
+本着「开箱即用」的原则，我将本项目文件夹打包上传到了[GitHub](https://github.com/favourhong/Awesome-Marp)和[Gitee](https://gitee.com/favourhong/Awesome-Marp)。你可以去那里下载项目文件夹，也可以在公众号后台获取链接（后文有回复码）~ 
 
 ## 你需要了解的软件工具
+
+就三样：Markdown 语法、Markdown 编辑器（[Visual Studio Code](https://code.visualstudio.com)）和 [Marp for VScode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) 插件！
 
 - Markdown 
 
@@ -33,8 +35,6 @@ Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以
 ![](./images/Marp1.png)
 
 ![](./images/Marp2.png)
-
-- 本项目用到的工具：软件 [Visual Studio Code](https://code.visualstudio.com)、插件 [Marp for VScode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
 
 ## Awesome Marp 的几个特色
 
@@ -67,9 +67,12 @@ Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以
 ![链接的呈现效果](./images/链接.gif)
 
 - 还可以自定义实现图片的水平排列方式：居中对齐、居左对齐或居右对齐 
+	- 图片水平居中对齐：`![#c](./images/a.png)`  
+	- 图片水平居右对齐：`![#r](./images/a.png)` 
+	- 图片水平居左对齐：`![#l](./images/a.png)` 
 - …… 
 
-总结一下，目前 Awesome Marp 1.0 版本支持的自定义样式共 21 个，使用时只需要在页面指定局部指令，像这样： `<!-- _class: trans -->`）
+总结一下，像上面的这样的自定义样式，目前 Awesome Marp 1.0 版本一共支持 21 个！使用时只需要在页面指定局部指令，比如： `<!-- _class: trans -->`）
 
 ![21 种自定义样式](./images/21种自定义样式.png)  
 
@@ -77,6 +80,7 @@ Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以
   
 ![6种主题颜色](./images/6种主题颜色.png)
   
+![轻松切换主题](./images/切换主题.gif)
 
 ## 如何使用 Awesome Marp？
 
@@ -84,7 +88,7 @@ Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以
 - 如果你对部分效果不满意、期望简单微调的话，目前在 `Awesome-Marp/themes` 下有 6 个 CSS 文件，这些 CSS 文件决定了 Markdown 源码的最终渲染效果，可以试着改一改~
 - 如果你能够自行定制个性化 CSS 文件，渲染之前，别忘了在 `Awesome-Marp/.vscode/settings.json` 里加上你的 CSS 文件路径~
 
-## 可能会出现的问题
+## 我猜可能会出现的问题
 
 - 你的呈现效果与我不同：
 	- 可能是因为你没有安装相关字体文件。因担心版权问题，需自行下载字体并安装，Awesome Marp 用到的字体有：
@@ -94,7 +98,13 @@ Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以
 	- 可能因为你没有在 VS Code 的设置文件 `settings.json` 中引入自定义的 CSS 路径
 	- 可参考 `./Awesome-Marp/.vscode/settings.json` 照猫画虎
 
+## 最后
 
 Awesome Marp 第 1 版的样式，感觉已经基本够用了，还有一些想法没有呈现出来，我会根据自己的使用体验和大家的反馈，不定期迭代更新~ 
 
 希望对你有帮助，欢迎交流 ~ 
+
+创作不易，buy me a coffee 🤙~ 
+
+![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309240907419.png)
+

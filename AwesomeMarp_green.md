@@ -20,7 +20,7 @@ footer: \ *初虹（山东财经大学）* *Awesome Marp：自定义 Marp 主题
 公众号：虹鹄山庄
 发布时间：2023 年 9 月（v1.0）
 <chuhong@mail.sdufe.edu.cn>
-Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/awesome-marp)
+Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
 ## Awesome Marp 有什么？
 
@@ -54,12 +54,11 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 - **Awesome Marp 的几个特色：**
   - 支持分栏呈现、支持引用盒子（类似于 Beamer 中的定理框）、提供多种类型的封面页和目录页、可以实现导航进度栏、图片支持自定义居中/居左/居右对齐等
 
-- 本着「开箱即用」的原则，我将本项目文件夹打包上传到了[GitHub](https://github.com/favourhong/Awesome-Marp) 和 [Gitee](https://gitee.com/favourhong/awesome-marp)
+- 本着「开箱即用」的原则，我将本项目文件夹打包上传到了[GitHub](https://github.com/favourhong/Awesome-Marp) 和 [Gitee](https://gitee.com/favourhong/Awesome-Marp)
 - 用到的工具：软件 [Visual Studio Code](https://code.visualstudio.com)、插件 [Marp for VScode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
 
 ## 1. 关于模板
 
-<!-- _class: caption -->
 
 - Awesome Marp 的自定义样式（共 21 个），使用时需在页面指定（如 `<!-- _class: trans -->`）：
 
@@ -133,7 +132,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 公众号：虹鹄山庄
 发布时间：2023 年 9 月（v1.0）
 <chuhong@mail.sdufe.edu.cn>
-Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/awesome-marp)
+Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
 ---
 
@@ -150,7 +149,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 公众号：虹鹄山庄
 发布时间：2023 年 9 月（v1.0）
 <chuhong@mail.sdufe.edu.cn>
-Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/awesome-marp)
+Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
 ---
 
@@ -166,7 +165,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 公众号：虹鹄山庄
 发布时间：2023 年 9 月（v1.0）
 <chuhong@mail.sdufe.edu.cn>
-Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/awesome-marp)
+Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
 ---
 
@@ -184,7 +183,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 公众号：虹鹄山庄
 发布时间：2023 年 9 月（v1.0）
 <chuhong@mail.sdufe.edu.cn>
-Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/awesome-marp)
+Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
 ## 3. 目录页
 
@@ -697,8 +696,16 @@ footer: 初虹（山东财经大学） # 设置页脚区域的内容，如果设
   - favourhong_sdufe
 - <i class="fa-solid fa-house"></i> 
   - 公众号：虹鹄山庄
-<!-- - <i class="fa-solid fa-phone-volume"></i> 
-  - 17860510667   -->
+
 <div>
 
+## 创作不易，buy me a coffee 🤙~ 
+
+<!-- _class: trans -->
+<!-- _footer: "" -->
+<!-- _paginate: "" -->
+
+<br>
+
+![#c w:350](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309240907419.png)
 
