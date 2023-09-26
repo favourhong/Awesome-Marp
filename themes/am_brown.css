@@ -1275,3 +1275,29 @@ table > tfoot > tr > td {
 .out-prompt { color: #ff9090; }
 .out-prompt-number { font-weight: bold; }
 .inverted { background-color: white; color: #232629; }
+
+section.fixedtitleA {
+  justify-content: start;
+}
+section.fixedtitleB {
+  justify-content: start;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-rows: 10% 90%;
+  grid-template-areas: 
+      "slideheading"
+      "content";
+}
+section.fixedtitleB h2, h3, h4, h5{
+  grid-area: slideheading;
+  position: absolute;
+  padding: 10px;
+  background-color: var(--color-much);
+  color: white;
+  border-radius: 8px;
+  font-size: 1.25rem;
+}
+section.fixedtitleB .div {
+  grid-area: content;
+} 
+

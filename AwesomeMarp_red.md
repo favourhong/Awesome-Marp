@@ -4,7 +4,7 @@ size: 16:9
 theme: am_red
 paginate: true
 headingDivider: [2,3,4]
-footer: \ *初虹（山东财经大学）* *Awesome Marp：自定义 Marp 主题* *2023年9月（v1.0）*
+footer: \ *初虹（山东财经大学）* *Awesome Marp：自定义 Marp 主题* *2023年9月26日（v1.1）*
 ---
 
 <!-- _class: cover_a -->
@@ -18,7 +18,7 @@ footer: \ *初虹（山东财经大学）* *Awesome Marp：自定义 Marp 主题
 
 @初虹（山东财经大学）
 公众号：虹鹄山庄
-发布时间：2023 年 9 月（v1.0）
+发布时间：2023 年 9 月 26日（v1.1）
 <chuhong@mail.sdufe.edu.cn>
 Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
@@ -35,8 +35,9 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 - [页面分栏与列表分列](#18)
 - [引用、链接和引用盒子](#30)
 - [导航栏](#37)
-- [需要知道的基础知识](#30)
-- [最后一页](#45)
+- [固定标题行](#40)
+- [需要知道的基础知识](#43)
+- [最后一页](#48)
 
 
 ## 1. 关于模板
@@ -50,7 +51,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 - **开始之前：** 你需要知道这样几个工具，Markdown、Markdown 编辑器（如 VS Code）和 Marp。关于这三者是个啥，我不做详细地介绍，但在[第 40 页](#40)、[第 41 页](#41)和[第 42 页](#42)会有一些凝练性的内容给你参考，同时我提供了不少的链接，也供你参阅。
 - **为什么要开发 Awesome Marp？** 
   - Marp 原生仅提供 3 种主题（`default` / `gaia` / `uncover`），呈现效果一般。于是我根据自己的使用情况，边用边改造，陆续打磨了这样的一整套模板。
-  - 目前发布的 v1.0 有 21 个自定义样式、6 种颜色的主题（后面有呈现效果）
+  - 目前发布的 v1.1 有 23 个自定义样式、6 种颜色的主题（后面有呈现效果）
 - **Awesome Marp 的几个特色：**
   - 支持分栏呈现、支持引用盒子（类似于 Beamer 中的定理框）、提供多种类型的封面页和目录页、可以实现导航进度栏、图片支持自定义居中/居左/居右对齐等
 
@@ -62,10 +63,10 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 - Awesome Marp 的自定义样式（共 21 个），使用时需在页面指定（如 `<!-- _class: trans -->`）：
 
-| 封面页       | 目录页     | 列表          | 引用盒子      | 其他                      |
-|-----------|---------|-------------|-----------|-------------------------|
-| `cover_a` | `toc_a` | `cols-2`    | `bq-black`  | 过渡页面：`trans`            |
-| `cover_b` | `toc_b` | `cols-2-64` | `bq-purple` | 最后一页：`lastpage`         |
+| 封面页       | 目录页     | 列表          | 引用盒子      | 其他                      |固定标题行|
+|-----------|---------|-------------|-----------|-------------------------|--|
+| `cover_a` | `toc_a` | `cols-2`    | `bq-black`  | 过渡页面：`trans`            | 标题行固定+无底色：`fixedtitleA`
+| `cover_b` | `toc_b` | `cols-2-64` | `bq-purple` | 最后一页：`lastpage`         | 标题行固定+有底色：`fixedtitleB`
 | `cover_c` |         | `cols-2-73` | `bq-red`    | 导航栏：`navbar`            |
 | `cover_d` |         | `cols-3`    | `bq-blue`   | 图表等的标题：`caption`        |
 | `cover_e` |         |             | `bq-green`  | 非嵌套无序列表的毛玻璃效果：`fglass`  |
@@ -106,7 +107,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 - 大标题：采用一级标题 `# ` （如：`# Awesome Marp：自定义 Marp 主题`）
 - 副标题：采用六级标题 `###### ` （如：`###### 打造简便又不失个性的演示文稿`）
-- 本套模板 v1.0 版本提供了 5 种封面页样式，使用时需要在页面中设定局部指令，如：`<!-- _class: cover_a -->` 
+- 本套模板 v1.1 版本提供了 5 种封面页样式，使用时需要在页面中设定局部指令，如：`<!-- _class: cover_a -->` 
   - `cover_a`：[第 1 种](#1)
   - `cover_b`：[第 2 种](#10)
   - `cover_c`：预留 header 可设定学校 logo，footer 可设定校训 [第 3 种](#11)
@@ -130,7 +131,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 @初虹（山东财经大学）
 公众号：虹鹄山庄
-发布时间：2023 年 9 月（v1.0）
+发布时间：2023 年 9 月（v1.1）
 <chuhong@mail.sdufe.edu.cn>
 Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
@@ -147,7 +148,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 @初虹（山东财经大学）
 公众号：虹鹄山庄
-发布时间：2023 年 9 月（v1.0）
+发布时间：2023 年 9 月（v1.1）
 <chuhong@mail.sdufe.edu.cn>
 Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
@@ -163,7 +164,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 @初虹（山东财经大学）
 公众号：虹鹄山庄
-发布时间：2023 年 9 月（v1.0）
+发布时间：2023 年 9 月（v1.1）
 <chuhong@mail.sdufe.edu.cn>
 Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
@@ -181,7 +182,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 @初虹（山东财经大学）
 公众号：虹鹄山庄
-发布时间：2023 年 9 月（v1.0）
+发布时间：2023 年 9 月（v1.1）
 <chuhong@mail.sdufe.edu.cn>
 Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
@@ -193,7 +194,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 ## 3. 目录页 
 
-- Awesome Marp v1.0 版本提供了至少 2 种目录页样式，使用时同样需要设定局部样式
+- Awesome Marp v1.1 版本提供了至少 2 种目录页样式，使用时同样需要设定局部样式
   - `toc_a`：需要将 header 的内容设定为 `CONTENTS`，即 `<!-- _header: "CONTENTS" -->`
   - `toc_b`：需要将 header 的内容设定为 `目录<br>CONTENTS<br>你的LOGO地址`，即 `<!-- _header: 目录<br>CONTENTS<br>![](./logo.png)-->`
   - 提供的几种分栏列表样式，也可以作为目录页使用，如 `<!-- _class: cols2_ol_ci fglass  -->`（效果见[这里](#19)）
@@ -214,8 +215,10 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 - [页面分栏与列表分列](#18)
 - [引用、链接和引用盒子](#30)
 - [导航栏](#37)
-- [需要知道的基础知识](#30)
-- [最后一页](#45)
+- [固定标题行](#40)
+- [需要知道的基础知识](#43)
+- [最后一页](#48)
+
 
 ---
 
@@ -230,8 +233,10 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 - [页面分栏与列表分列](#18)
 - [引用、链接和引用盒子](#30)
 - [导航栏](#37)
-- [需要知道的基础知识](#30)
-- [最后一页](#45)
+- [固定标题行](#40)
+- [需要知道的基础知识](#43)
+- [最后一页](#48)
+
 
 
 ## 4. 页面分栏与列表分列
@@ -242,7 +247,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 ## 4.1 页面分栏与列表分列：页面分栏
 
-- Awesome Marp v1.0 提供了 4 种页面分栏方式，分别为：
+- Awesome Marp v1.1 提供了 4 种页面分栏方式，分别为：
   - `cols-2`：[两列分栏，五五平分](#22)
   - `cols-2-64`：[两列分栏，六四分](#23)
   - `cols-2-73`：[两列分栏，七三分](#24)
@@ -274,7 +279,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 ## 4.2 页面分栏与列表分列：列表分列
 
-Awesome Marp v1.0 提供了 4 种列表分列的方式，分别为：
+Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
 
 - `cols2_ol_sq`：呈现效果为[有序列表 + 方形序号](#26)
 - `cols2_ol_ci`：呈现效果为[有序列表 + 圆形序号](#27)
@@ -477,7 +482,7 @@ Awesome Marp v1.0 提供了 4 种列表分列的方式，分别为：
 - 链接的呈现效果：
   - [经管数据清洗与 Stata 实战：三大地级市数据库和 CSMAR 上市公司数据](https://mp.weixin.qq.com/s/D0cYVPJJsNiu61GcYwV6cg)
   - [Stata 基础：从论文文件夹体系的建立说起](https://mp.weixin.qq.com/s?__biz=MzkwOTE3NDExOQ==&mid=2247486489&idx=1&sn=2eb51e85a01541c7a552a9434e087512&scene=21#wechat_redirect)
-- 「引用盒子」是 Awesome Marp 提供的自定义的样式，v1.0 有 5 种颜色可选
+- 「引用盒子」是 Awesome Marp 提供的自定义的样式，v1.1 有 5 种颜色可选
   - [紫色](#32)：`bq-purple`
   - [蓝色](#33)：`bq-blue`
   - [绿色](#34)：`bq-green`
@@ -590,6 +595,40 @@ Awesome Marp v1.0 提供了 4 种列表分列的方式，分别为：
 - 默认根据内容自动分配间距，如果希望右对齐，可以手动增加空格的方式来推动右对齐 
 ```
 
+## 7. 固定标题行
+
+<!-- _class: trans -->
+<!-- _footer: "" -->
+<!-- _paginate: "" -->
+
+## 7. 固定标题行：更像 Beamer 了
+
+<!-- _class: fixedtitleA -->
+
+- 自定义样式：`<!-- _class: fixedtitleA -->`
+  
+  - 使当前页面的标题栏固定在顶部，而非随着内容的多少浮动
+  
+  - 同时，页面内容也会从顶部起笔，而非垂直方向上居中显示
+
+
+## 7. 固定标题行：更像 Beamer 了
+
+<!-- _class: fixedtitleB -->
+
+
+<div class="div">
+
+- 自定义样式：`<!-- _class: fixedtitleB -->`
+  
+  - `fixedtitleB` 相比于 `fixedtitleA`，标题增加了底色色块，同时缩小了标题大小
+  
+  - 其余效果与 `fixedtitleA` 相同 
+  
+  - 但是页面正文内容需要包裹在 `<div class="div'></div>` 标签中 
+</div>
+
+
 ## 需要知道的基础知识……
 
 <!-- _class: trans -->
@@ -637,7 +676,7 @@ Awesome Marp v1.0 提供了 4 种列表分列的方式，分别为：
 
 **Typora**
 - [Typora 主页](https://typora.io/)
-- v1.0 之前：完全免费；v1.0 之后：$14.99 三大平台一次性买断制
+- v1.1 之前：完全免费；v1.1 之后：$14.99 三大平台一次性买断制
 
 **Obsidian**
 - [Obsidian 主页](https://obsidian.md/)
