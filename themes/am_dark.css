@@ -998,6 +998,85 @@ section.cols-2-64 .rimg {
   justify-content: center;
 }
 
+section.cols-2-37 {
+  overflow: visible;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 10% 90%;
+  grid-template-areas:
+      "slideheading slideheading"
+      "leftpanel    rightpanel";
+}
+
+section.cols-2-37 h2, section.cols-2-37 h3 {
+  grid-area: slideheading;
+  font-size: var(--font-size-2-3);
+}
+
+section.cols-2-37 .ldiv { 
+  grid-area: leftpanel; 
+  margin-top: -2%;
+}
+section.cols-2-37 .rdiv { 
+  grid-area: rightpanel; 
+  margin-top: -2%;
+}
+section.cols-2-37 .limg { 
+  grid-area: leftpanel; 
+  margin-top: -2%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+section.cols-2-37 .rimg { 
+  grid-area: rightpanel; 
+  margin-top: -2%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+section.cols-2-46 {
+  overflow: visible;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 10% 90%;
+  grid-template-areas:
+      "slideheading slideheading"
+      "leftpanel    rightpanel";
+}
+
+section.cols-2-46 h2, section.cols-2-46 h3 {
+  grid-area: slideheading;
+  font-size: var(--font-size-2-3);
+}
+
+section.cols-2-46 .ldiv { 
+  grid-area: leftpanel; 
+  margin-top: -2%;
+
+}
+section.cols-2-46 .rdiv { 
+  grid-area: rightpanel; 
+  margin-top: -2%;
+}
+
+section.cols-2-46 .limg { 
+  grid-area: leftpanel; 
+  margin-top: -2%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+section.cols-2-46 .rimg { 
+  grid-area: rightpanel; 
+  margin-top: -2%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
 section.bq-blue blockquote, section.bq-red blockquote, section.bq-green blockquote, section.bq-purple blockquote, section.bq-black blockquote {
   padding: 1%;
   letter-spacing: 0px;
