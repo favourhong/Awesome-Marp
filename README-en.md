@@ -8,7 +8,7 @@ I haven't made a PowerPoint presentation in over two years, ever since I learned
 
 The built-in native theme of `Marp` has few styles and the presentation effect is not good, so I've been trying to customize the CSS file to create a theme that meets my personal aesthetics, and this template has gained a lot of popularity among several friends while I've been working on it. So I simply shared it in the hopes that it would help you in some way~ 
 
-I gave this theme a name, `Awesome Marp`, it's kind of a stage summary. The current v1.1 version provides six themes (dark, green, blue, red, purple and brown) and 25 custom styles.
+I gave this theme a name, `Awesome Marp`, it's kind of a stage summary. The current v1.2 version provides six themes (dark, green, blue, red, purple and brown) and 30 custom styles.
 
 First, let's take a look at a rendering~
 
@@ -20,7 +20,7 @@ This is a pure CSS project, all effects are implemented in CSS language. Since I
 
 ## Software you need to know
 
-There are only three: the Markdown syntax, the Markdown editor ([Visual Studio Code](https://code.visualstudio.com)) and the [Marp for VScode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) plugin!
+There are only three: the Markdown syntax, the Markdown editor ([Visual Studio Code](https://code.visualstudio.com)、 [Obsidian](https://obsidian.md/)) and the [Marp for VScode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) plugin!
 
 - Markdown 
 
@@ -76,9 +76,9 @@ There are only three: the Markdown syntax, the Markdown editor ([Visual Studio C
 	- Pictures are horizontally left-aligned: `! [#l](. /images/a.png)`
 - …… 
 
-To summarize, there are currently 25 custom styles like the one above supported in `Awesome Marp` 1.1! To use them, you just need to specify a local directive on the page, e.g. `<! -- _class: trans -->`)
+To summarize, there are currently 30 custom styles like the one above supported in `Awesome Marp` 1.2! To use them, you just need to specify a local directive on the page, e.g. `<! -- _class: trans -->`)
 
-![25 种自定义样式](./images/25种自定义样式.png)  
+![30 种自定义样式](./images/30种自定义样式.png)  
 
 Not only that, but I've also designed 6 theme colors, and to switch between them, all you need to do is define `theme: <theme_name>` in the YAML section:
 
@@ -88,22 +88,32 @@ Not only that, but I've also designed 6 theme colors, and to switch between them
 
 ## How to use `Awesome Marp`?
 
-- If you want to "use it as it is", you can just follow the Markdown source files I've shared and modify them accordingly.
+- How to use:
+	- **with VS Code**: Open the `Awesome-Marp` folder directly with VS Code.
+        - If you want to "use it as it is", you can just follow the Markdown source files I've shared and modify them accordingly.
 
-- If you're not happy with some of the effects and want to fine-tune them, there are currently 6 CSS files under `Awesome-Marp/themes` that determine the final rendering of the Markdown source code, so you can try to change them!
+        - If you're not happy with some of the effects and want to fine-tune them, there are currently 6 CSS files under `Awesome-Marp/themes` that determine the final rendering of the Markdown source code, so you can try to change them!
+        
+        - If you are able to customize your CSS files, don't forget to add the path to your CSS files in `Awesome-Marp/.vscode/settings.json` before rendering.
+	- **With Obsidian**: Install the [Marp Slides plugin](https://github.com/samuele-cozzi/obsidian-marp-slides) and configure the CSS path accordingly!
 
-- If you are able to customize your CSS files, don't forget to add the path to your CSS files in `Awesome-Marp/.vscode/settings.json` before rendering.
-
-- If your rendering is different from mine, I guess it could be:
-	- You don't have the relevant font files installed, due to the concern of copyright infringement, you need to download the fonts and install them by yourself, the fonts used in Awesome Marp are:
-	- English Fonts: `Adobe Garamond` / `Latin Modern Math` / `Optima LT Medium` / `Fira Code`
-	- Chinese fonts: `方正宋刻本秀楷体` / `方正苏新诗柳楷简体` / `霞鹜文楷` / `叶根友毛笔行书修正版`
-
+- Due to the concern of copyright infringement, you need to download the fonts and install them by yourself, the fonts used in Awesome Marp are:
+	- Text fonts: `Latin Modern Math', `方正宋刻本秀楷简体', if not installed, `Calibri' and `楷体' will be used by default.
+    - Headline fonts: `Optima LT Medium', `方正苏新诗柳楷简体', if not installed, `Arial' and `黑体' will be used by default.
+    - Footnote fonts: `Charm` and `叶根友毛笔行书修正版`, if not installed, `Calibri` and `楷体` will be used by default.
+    - Code fonts: `Fira Code` and `霞鹜文楷等宽`, if not installed, `Consolas` and `华文中宋` will be used by default.
 
 ## Update Record
 
-- `September 24, 2023` Awesome Marp v1.0: 23 custom styles.
-- `September 26, 2023` Awesome Marp v1.1: 25 custom styles, add two styles for fixed header rows and page four-six columns and page three-seven columns on top of v1.0.
+- `October 16, 2023` Awesome Marp v1.2
+  - 30 Custom Styles
+  - Add footnote (1), adjust font size (4) and 5 custom styles based on v1.1.
+  - New free fonts
+- `September 26, 2023` Awesome Marp v1.1
+  - 25 customizable styles
+  - Add 4 custom styles based on v1.0, including Fixed Header Row (2), Page 4-6 Columns, Page 3-7 Columns (2).
+- `September 24, 2023` Awesome Marp v1.0
+  - 21 custom styles
 
 ---
 
