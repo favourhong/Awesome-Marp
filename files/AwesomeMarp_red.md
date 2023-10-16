@@ -1,5 +1,5 @@
 ---
-marp: false
+marp: true
 size: 16:9
 theme: am_red
 paginate: true
@@ -311,6 +311,8 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
 
 <!-- ![#c](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309221014499.png) -->
 ![#c](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309221630151.png)
+
+
 </div>
 
 ## 《春》（两栏六四分）
