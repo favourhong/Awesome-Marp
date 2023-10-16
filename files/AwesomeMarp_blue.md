@@ -3,14 +3,14 @@ marp: true
 size: 16:9
 theme: am_blue
 paginate: true
-headingDivider: [2,3,4]
-footer: \ *初虹（山东财经大学）* *Awesome Marp：自定义 Marp 主题* *2023年9月26日（v1.1）*
+headingDivider: [2,3]
+footer: \ *初虹（山东财经大学）* *Awesome Marp：自定义 Marp 主题* *2023年10月16日（v1.2）*
 ---
 
-<!-- _class: cover_a
-<!-- _header: "" -->
-<!-- _footer: "" -->
-<!-- _paginate: "" -->
+<!-- _class: cover_a 
+<!-- _header: "" --> 
+<!-- _footer: "" --> 
+<!-- _paginate: "" --> 
 
 # Awesome Marp：一套自定义 Marp 主题
 
@@ -18,7 +18,7 @@ footer: \ *初虹（山东财经大学）* *Awesome Marp：自定义 Marp 主题
 
 @初虹（山东财经大学）
 公众号：虹鹄山庄
-发布时间：2023 年 9 月 26 日（v1.1）
+发布时间：2023 年 10 月 16 日（v1.2）
 <chuhong@mail.sdufe.edu.cn>
 Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
@@ -36,7 +36,8 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 - [引用、链接和引用盒子](#33)
 - [导航栏](#40)
 - [固定标题行](#43)
-- [需要知道的基础知识](#46)
+- [其他自定义样式](#47)
+- [需要知道的基础知识](#49)
 - [最后一页](#51)
 
 ## 1. 关于模板
@@ -47,35 +48,35 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 ## 1. 关于模板
 
-- **开始之前：** 你需要知道这样几个工具，Markdown、Markdown 编辑器（如 VS Code）和 Marp。关于这三者是个啥，我不做详细地介绍，但在[第 40 页](#40)、[第 41 页](#41)和[第 42 页](#42)会有一些凝练性的内容给你参考，同时我提供了不少的链接，也供你参阅。
+- **开始之前：** 你需要知道这样几个工具，Markdown、Markdown 编辑器（VS Code 或 Obsidian）和 Marp。关于这三者是个啥，我不做详细地介绍，但在[第 50 页](#50)、[第 51 页](#51)和[第 52 页](#52)会有一些凝练性的内容给你参考，同时我提供了不少的链接，也供你参阅。
 - **为什么要开发 Awesome Marp？** 
   - Marp 原生仅提供 3 种主题（`default` / `gaia` / `uncover`），呈现效果一般。于是我根据自己的使用情况，边用边改造，陆续打磨了这样的一整套模板。
-  - 目前发布的 v1.1 有 23 个自定义样式、6 种颜色的主题（后面有呈现效果）
+  - **目前发布的 v1.2 有 30 个自定义样式、6 种颜色的主题**（后面有呈现效果）
 - **Awesome Marp 的几个特色：**
-  - 支持分栏呈现、支持引用盒子（类似于 Beamer 中的定理框）、提供多种类型的封面页和目录页、可以实现导航进度栏、图片支持自定义居中/居左/居右对齐等
+  - 支持分栏呈现、支持 Callouts（类似于 Beamer 中的定理框）、提供多种类型的封面页和目录页、可以实现导航进度栏、图片支持自定义居中/居左/居右对齐等
 
 - 本着「开箱即用」的原则，我将本项目文件夹打包上传到了[GitHub](https://github.com/favourhong/Awesome-Marp) 和 [Gitee](https://gitee.com/favourhong/Awesome-Marp)
-- 用到的工具：软件 [Visual Studio Code](https://code.visualstudio.com)、插件 [Marp for VScode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
+- 用到的工具：软件 [Visual Studio Code](https://code.visualstudio.com) 或 [Obsidian](https://obsidian.md/)、[Marp for VScode（插件）](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
 
 ## 1. 关于模板
 
 
-- Awesome Marp 的自定义样式（共 25 个），使用时需在页面指定（如 `<!-- _class: trans -->`）：
+- Awesome Marp 支持 30 个自定义样式，使用时需在页面指定（如 `<!-- _class: trans -->`）：
 
-| 封面页       | 目录页     | 列表          | 引用盒子      | 其他                      |固定标题行|
+| 封面页       | 目录页     | 列表          | 引用盒子      | 其他 1        |其他 2|
 |-----------|---------|-------------|-----------|-------------------------|--|
-| `cover_a` | `toc_a` | `cols-2`    | `bq-black`  | 过渡页面 `trans`            | 标题固定+无底色 `fixedtitleA`
-| `cover_b` | `toc_b` | `cols-2-64` | `bq-purple` | 最后一页 `lastpage`         | 标题固定+有底色 `fixedtitleB`
-| `cover_c` |         | `cols-2-73` | `bq-red`    | 导航栏 `navbar`            |
-| `cover_d` |         | `cols-3`    | `bq-blue`   | 图表等的标题 `caption`        |
-| `cover_e` |         | `cols-2-46`            | `bq-green`  | 非嵌套无序列表的毛玻璃效果 `fglass`  ||
+| `cover_a` | `toc_a` | `cols-2`    | `bq-black` | 过渡页面 `trans`     | 图表等的标题 `caption` |
+| `cover_b` | `toc_b` | `cols-2-64` | `bq-purple`| 最后一页 `lastpage`  |非嵌套无序列表的毛玻璃效果 `fglass` |
+| `cover_c` |         | `cols-2-73` | `bq-red`   | 导航栏 `navbar`  | 脚注：`footnote` |
+| `cover_d` |         | `cols-3`    | `bq-blue`  |  标题固定+无底色 `fixedtitleA` |调节字体大小：`tinytext`/`smalltext`/<br>`largetext`/`hugetext` |
+| `cover_e` |         | `cols-2-46` | `bq-green`  | 标题固定+有底色 `fixedtitleB`  ||
 |||`cols-2-37`||||
 
 
 ## 1. 关于模板
 
 
-- Awesome Marp 的主题色（目前支持 6 种），可在 YAML 区切换 Theme，如 `theme: am_dark`：
+- Awesome Marp 的主题色（6 种），可在 YAML 区切换 Theme，如 `theme: am_dark`：
 
 | 深色      | 绿色       | 红色     | 蓝色      | 棕色       | 紫色
 |---------|----------|--------|---------|----------|----|
@@ -85,14 +86,17 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 ## 1. 关于模板
 
 - 如何使用：
-  - 如果你想「拿来即用」，直接根据我分享的 Markdown 源码文件，对照修改就好了~ 
-  - 如果你对部分效果不满意、期望简单微调的话，目前在 `Awesome-Marp/themes` 下有 6 个 CSS 文件，这些 CSS 文件决定了 Markdown 源码的最终渲染效果，可以试着改一改~ 
-  - 如果你能够自行定制个性化 CSS 文件，渲染之前，别忘了在 `Awesome-Marp/.vscode/settings.json` 里加上你的 CSS 文件路径~ 
+  - **搭配 VS Code**：直接使用 VS Code 打开 `Awesome-Marp` 文件夹
+    - 如果你想「拿来即用」，直接根据我分享的 Markdown 源码文件，对照修改就好了~ 
+    - 如果你对部分效果不满意、期望简单微调的话，目前在 `Awesome-Marp/themes` 下有 6 个 CSS 文件，这些 CSS 文件决定了 Markdown 源码的最终渲染效果，可以试着改一改~ 
+    - 如果你能够自行定制个性化 CSS 文件，渲染前，别忘在 `Awesome-Marp/.vscode/settings.json` 里加上你的 CSS 文件路径~ 
+  - **搭配 Obsidian**：安装 [Marp Slides 插件](https://github.com/samuele-cozzi/obsidian-marp-slides)，并配置相应 CSS 路径
 
 - 字体：因担心版权问题，需自行下载字体并安装，Awesome Marp 用到的字体有：
-  - 英文字体：`Adobe Garamond` / `Latin Modern Math` / `Optima LT Medium` / `Fira Code` 
-  - 中文字体：`方正宋刻本秀楷体` / `方正苏新诗柳楷简体` / `霞鹜文楷` / `叶根友毛笔行书修正版`
-
+  - 正文字体：`Latin Modern Math`、`方正宋刻本秀楷简体`，如果未安装，默认将使用 `Calibri` 和 `楷体`
+  - 标题字体：`Optima LT Medium`、`方正苏新诗柳楷简体`，如果未安装，默认将使用 `Arial` 和 `黑体`
+  - 脚注字体：`Charm` 和 `叶根友毛笔行书修正版`，如果未安装，默认将使用 `Calibri` 和 `楷体`
+  - 代码字体：`Fira Code` 和 `霞鹜文楷等宽`，如果未安装，默认将使用 `Consolas` 和 `华文中宋`
 
 ## 下面让我们看看效果吧 ~  
 
@@ -110,12 +114,12 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 - 大标题：采用一级标题 `# ` （如：`# Awesome Marp：自定义 Marp 主题`）
 - 副标题：采用六级标题 `###### ` （如：`###### 打造简便又不失个性的演示文稿`）
-- 本套模板 v1.1 版本提供了 5 种封面页样式，使用时需要在页面中设定局部指令，如：`<!-- _class: cover_a -->` 
+- 本套模板提供 5 种封面页样式，使用时需要在页面中设定局部指令，如：`<!-- _class: cover_a -->` 
   - `cover_a`：[第 1 种](#1)
-  - `cover_b`：[第 2 种](#10)
-  - `cover_c`：预留 header 可设定学校 logo，footer 可设定校训 [第 3 种](#11)
-  - `cover_d`：只预留了 footer 设定校训 [第 4 种](#12)
-  - `cover_e`：预留 header 设定学校 logo，footer 设定学校 logo 和学校名称[第 5 种](#13)
+  - `cover_b`：[第 2 种](#11)
+  - `cover_c`：预留 header 可设定学校 logo，footer 可设定校训 [第 3 种](#12)
+  - `cover_d`：只预留了 footer 设定校训 [第 4 种](#13)
+  - `cover_e`：预留 header 设定学校 logo，footer 设定学校 logo 和学校名称[第 5 种](#14)
 
 - 如果已经设定了全局 footer、header 或页码，但又不期望在封面页中出现，可以 `<!-- _footer: "" -->` / `<!-- _header: "" -->` / `<!-- _paginate: "" -->` 分别将其局部隐藏起来
 - 当标题文字超过页面宽度会溢出换行，这里可以使用 `<!-- fit -->` 根据页面宽度自动调整文字大小
@@ -133,7 +137,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 @初虹（山东财经大学）
 公众号：虹鹄山庄
-发布时间：2023 年 9 月（v1.1）
+发布时间：2023 年 10 月 16 日（v1.2）
 <chuhong@mail.sdufe.edu.cn>
 Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
@@ -150,7 +154,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 @初虹（山东财经大学）
 公众号：虹鹄山庄
-发布时间：2023 年 9 月（v1.1）
+发布时间：2023 年 10 月 16 日（v1.2）
 <chuhong@mail.sdufe.edu.cn>
 Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
@@ -166,7 +170,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 @初虹（山东财经大学）
 公众号：虹鹄山庄
-发布时间：2023 年 9 月（v1.1）
+发布时间：2023 年 10 月 16 日（v1.2）
 <chuhong@mail.sdufe.edu.cn>
 Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
@@ -184,7 +188,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 @初虹（山东财经大学）
 公众号：虹鹄山庄
-发布时间：2023 年 9 月（v1.1）
+发布时间：2023 年 10 月 16 日（v1.2）
 <chuhong@mail.sdufe.edu.cn>
 Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
 
@@ -196,13 +200,13 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 ## 3. 目录页 
 
-- Awesome Marp v1.1 版本提供了至少 2 种目录页样式，使用时同样需要设定局部样式
+- Awesome Marp 提供了至少 2 种目录页样式，使用时同样需要设定局部样式
   - `toc_a`：需要将 header 的内容设定为 `CONTENTS`，即 `<!-- _header: "CONTENTS" -->`
   - `toc_b`：需要将 header 的内容设定为 `目录<br>CONTENTS<br>你的LOGO地址`，即 `<!-- _header: 目录<br>CONTENTS<br>![](./logo.png)-->`
-  - 提供的几种分栏列表样式，也可以作为目录页使用，如 `<!-- _class: cols2_ol_ci fglass  -->`（效果见[这里](#19)）
+  - 提供的几种分栏列表样式，也可以作为目录页使用，如 `<!-- _class: cols2_ol_ci fglass  -->`（效果见[这里](#29)）
 
 - 类似地，如果已经定义了全局 footer 或页码，可以使用 `<!-- _footer: "" -->` / `<!-- _paginate: "" -->` 分别将其局部隐藏起来
-- 目录页样式：[第 1 种](#2)、[第 2 种](#16)和[第 3 种](#17)
+- 目录页样式：[第 1 种](#2)、[第 2 种](#17)和[第 3 种](#18)
 
 ---
 
@@ -218,7 +222,8 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 - [引用、链接和引用盒子](#33)
 - [导航栏](#40)
 - [固定标题行](#43)
-- [需要知道的基础知识](#46)
+- [其他自定义样式](#47)
+- [需要知道的基础知识](#49)
 - [最后一页](#51)
 
 ---
@@ -235,7 +240,8 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 - [引用、链接和引用盒子](#33)
 - [导航栏](#40)
 - [固定标题行](#43)
-- [需要知道的基础知识](#46)
+- [其他自定义样式](#47)
+- [需要知道的基础知识](#49)
 - [最后一页](#51)
 
 
@@ -247,11 +253,13 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 ## 4.1 页面分栏与列表分列：页面分栏
 
-- Awesome Marp v1.1 提供了 4 种页面分栏方式，分别为：
-  - `cols-2`：[两列分栏，五五平分](#22)
-  - `cols-2-64`：[两列分栏，六四分](#23)
-  - `cols-2-73`：[两列分栏，七三分](#24)
-  - `cols-3`：[三列分栏，平分](#25)
+- Awesome Marp 提供了 6 种页面分栏方式，分别为：
+  - `cols-2`：[两列分栏，五五平分](#23)
+  - `cols-2-64`：[两列分栏，六四分](#24)
+  - `cols-2-73`：[两列分栏，七三分](#25)
+  - `cols-2-46`：[两列分栏，四六分](#26)
+  - `cols-2-37`：[两列分栏，三七分](#27) 
+  - `cols-3`：[三列分栏，平分](#28)
 
 - 如果某一栏为图片，可以将 `class=ldiv` 换成 `class=limg`，这样能够实现图片的垂直居中对齐呢（`class=ldiv` 为居上对齐）
 
@@ -276,16 +284,6 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 ```
 
 - 如果是分三栏（`<!-- _class: cols-3 -->`），还需要再增加 `<div class="mdiv"></div>` 标签
-
-## 4.2 页面分栏与列表分列：列表分列
-
-Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
-
-- `cols2_ol_sq`：呈现效果为[有序列表 + 方形序号](#26)
-- `cols2_ol_ci`：呈现效果为[有序列表 + 圆形序号](#27)
-- `cols2_ul_sq`：呈现效果为[无序列表 + 方形序号](#28)
-- `cols2_ul_ci`：呈现效果为[无序列表 + 圆形序号](#29)
-
 
 
 ## 《荷塘月色》（两栏五五分）
@@ -436,6 +434,15 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
 [返回](#19)
 </div>
 
+## 4.2 页面分栏与列表分列：列表分列
+
+Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
+
+- `cols2_ol_sq`：呈现效果为[有序列表 + 方形序号](#29)
+- `cols2_ol_ci`：呈现效果为[有序列表 + 圆形序号](#30)
+- `cols2_ul_sq`：呈现效果为[无序列表 + 方形序号](#31)
+- `cols2_ul_ci`：呈现效果为[无序列表 + 圆形序号](#32)
+
 
 ## 《微观经济学：现代观点》
 
@@ -457,7 +464,7 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
 - 外部性与公共品
 - 不确定性、期望效用和不对称信息
 
-[返回](#21)
+[返回](#28)
 
 
 ## 《微观经济学：现代观点》
@@ -480,7 +487,7 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
 - 外部性与公共品
 - 不确定性、期望效用和不对称信息
 
-[返回](#21)
+[返回](#28)
 
 ## 《置身事内》
 
@@ -498,7 +505,7 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
 - 第七章：国内国际失衡 
 - 第八章：政府与经济发展
 
-[返回](#21)
+[返回](#28)
 
 ## 《置身事内》
 
@@ -516,15 +523,15 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
 - 第七章：国内国际失衡 
 - 第八章：政府与经济发展
 
-[返回](#21)
+[返回](#28)
 
-## 5. 引用、链接和引用盒子
+## 5. 引用、链接和 Callouts
 
 <!-- _class: trans -->
 <!-- _footer: "" -->
 <!-- _paginate: "" -->
 
-## 5. 引用、链接和引用盒子
+## 5. 引用、链接和 Callouts
 
 - 引用的呈现效果为：
 
@@ -533,12 +540,12 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
 - 链接的呈现效果：
   - [经管数据清洗与 Stata 实战：三大地级市数据库和 CSMAR 上市公司数据](https://mp.weixin.qq.com/s/D0cYVPJJsNiu61GcYwV6cg)
   - [Stata 基础：从论文文件夹体系的建立说起](https://mp.weixin.qq.com/s?__biz=MzkwOTE3NDExOQ==&mid=2247486489&idx=1&sn=2eb51e85a01541c7a552a9434e087512&scene=21#wechat_redirect)
-- 「引用盒子」是 Awesome Marp 提供的自定义的样式，v1.1 有 5 种颜色可选
-  - [紫色](#32)：`bq-purple`
-  - [蓝色](#33)：`bq-blue`
-  - [绿色](#34)：`bq-green`
-  - [红色](#35)：`bq-red`
-  - [黑色](#36)：`bq-black`
+- Callouts 是 Awesome Marp 提供的自定义的样式，有 5 种颜色可选：
+  - [紫色](#35)：`bq-purple`
+  - [蓝色](#36)：`bq-blue`
+  - [绿色](#37)：`bq-green`
+  - [红色](#38)：`bq-red`
+  - [黑色](#39)：`bq-black`
 
 ## 5. 引用、链接和引用盒子
 
@@ -551,7 +558,7 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
 > SCM 最早由 Abadie and Gardeazabal (2003) 提出，用来研究西班牙巴斯克地区恐怖活动的经济成本，属于案例研究范畴 (Case Study)。Athey & Imbens (2017) 认为它是过去 15 年计量方法领域最重要的创新。<br>
 > 合成控制法的基本思想是：虽然无法找到巴斯克地区的最佳控制地区，但可对西班牙的若干大城市进行适当的线性组合（赋予不同的权重），以构造一个更为贴切的「合成控制地区」 (Synthetic Control Region)，然后将真实的巴斯克地区与「合成的巴斯克地区」进行对比，即可得到恐袭的影响。
 
-[返回](#31)
+[返回](#34)
 
 ## 5. 引用、链接和引用盒子
 
@@ -564,7 +571,7 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
 > SCM 最早由 Abadie and Gardeazabal (2003) 提出，用来研究西班牙巴斯克地区恐怖活动的经济成本，属于案例研究范畴 (Case Study)。Athey & Imbens (2017) 认为它是过去 15 年计量方法领域最重要的创新。<br>
 > 合成控制法的基本思想是：虽然无法找到巴斯克地区的最佳控制地区，但可对西班牙的若干大城市进行适当的线性组合（赋予不同的权重），以构造一个更为贴切的「合成控制地区」 (Synthetic Control Region)，然后将真实的巴斯克地区与「合成的巴斯克地区」进行对比，即可得到恐袭的影响。
 
-[返回](#31)
+[返回](#34)
 
 ## 5. 引用、链接和引用盒子
 
@@ -577,7 +584,7 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
 > SCM 最早由 Abadie and Gardeazabal (2003) 提出，用来研究西班牙巴斯克地区恐怖活动的经济成本，属于案例研究范畴 (Case Study)。Athey & Imbens (2017) 认为它是过去 15 年计量方法领域最重要的创新。<br>
 > 合成控制法的基本思想是：虽然无法找到巴斯克地区的最佳控制地区，但可对西班牙的若干大城市进行适当的线性组合（赋予不同的权重），以构造一个更为贴切的「合成控制地区」 (Synthetic Control Region)，然后将真实的巴斯克地区与「合成的巴斯克地区」进行对比，即可得到恐袭的影响。
 
-[返回](#31)
+[返回](#34)
 
 ## 5. 引用、链接和引用盒子
 
@@ -590,7 +597,7 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
 > SCM 最早由 Abadie and Gardeazabal (2003) 提出，用来研究西班牙巴斯克地区恐怖活动的经济成本，属于案例研究范畴 (Case Study)。Athey & Imbens (2017) 认为它是过去 15 年计量方法领域最重要的创新。<br>
 > 合成控制法的基本思想是：虽然无法找到巴斯克地区的最佳控制地区，但可对西班牙的若干大城市进行适当的线性组合（赋予不同的权重），以构造一个更为贴切的「合成控制地区」 (Synthetic Control Region)，然后将真实的巴斯克地区与「合成的巴斯克地区」进行对比，即可得到恐袭的影响。
 
-[返回](#31)
+[返回](#34)
 
 ## 5. 引用、链接和引用盒子
 
@@ -603,7 +610,7 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
 > SCM 最早由 Abadie and Gardeazabal (2003) 提出，用来研究西班牙巴斯克地区恐怖活动的经济成本，属于案例研究范畴 (Case Study)。Athey & Imbens (2017) 认为它是过去 15 年计量方法领域最重要的创新。<br>
 > 合成控制法的基本思想是：虽然无法找到巴斯克地区的最佳控制地区，但可对西班牙的若干大城市进行适当的线性组合（赋予不同的权重），以构造一个更为贴切的「合成控制地区」 (Synthetic Control Region)，然后将真实的巴斯克地区与「合成的巴斯克地区」进行对比，即可得到恐袭的影响。
 
-[返回](#31)
+[返回](#34)
 
 
 ## 6. 导航栏
@@ -679,6 +686,53 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
   - 但是页面正文内容需要包裹在 `<div class="div'></div>` 标签中 
 </div>
 
+## 8. 其他自定义样式
+
+<!-- _class: trans -->
+<!-- _footer: "" -->
+<!-- _paginate: "" -->
+
+---
+
+<!-- _class: footnote -->
+
+<div class="tdiv">
+
+#### 8.1 脚注的自定义样式：`footnote`
+
+使用方法：
+
+- 自定义样式：`<!-- _class: footnote -->`
+- 页面除脚注外的其他内容，写在 `<div class = "tdiv"></div>` 
+- 页面的脚注内容，写在 `<div class = "bdiv"></div>` 
+
+举个例子，展示一下显示效果：
+
+- 一方面，经济金融化程度的加深，使得金融部门能够凭借资本跨期配置提前抽取其他部门的未来价值，从而扩大金融和非金融部门之间的外部收入差距$^1$。另一方面，经济金融化不断增加企业股东权力，促使企业更加追求股东价值最大化，这一导向将弱化普通劳动者阶层的议价能力，食利者阶层的财产性收入增加必然会挤压劳动收入份额，从而扩大了内部收入差距$^2$。
+
+</div>
+
+<div class="bdiv">
+
+1 张甜迪. 金融化对中国金融、非金融行业收入差距的影响[J]. 经济问题, 2015(11): 40-46.
+2 Hein E. Finance-dominated capitalism and re-distribution of income: a Kaleckian perspective[J]. Cambridge Journal of Economics, 2015, 39(3): 907-934.
+</div>
+
+## 8.2 调节文字大小的自定义样式
+
+<!-- _class: largetext -->
+
+对于字体大小的调节，直接修改 CSS 文件应该很方便的。但有小伙伴提出，“希望可以增加字体调节的自定义样式”，于是目前提供了四种微调样式：
+
+- 自定义样式 1：`<!-- _class: tinytext -->` （是默认字体大小的 0.8 倍）
+- 自定义样式 2：`<!-- _class: smalltext -->` （是默认字体大小的 0.9 倍）
+- 自定义样式 3：`<!-- _class: largetext -->` （是默认字体大小的 1.15 倍）
+- 自定义样式 4：`<!-- _class: hugetext -->` （是默认字体大小的 1.3 倍）
+
+比如，本页面采用的自定义样式为 `largetext` 
+
+
+
 ## 需要知道的基础知识……
 
 <!-- _class: trans -->
@@ -703,7 +757,7 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
   - 数学公式：行内公式 `$...$`、行间公式 `$$...$$`
   - 支持 HTML 元素：`<br>`/`<hr>`/`<b></b>`/`<i></i>`/`<kbd></kbd>` 等
   
-## 我用过的 Markdown 编辑器
+## 推荐的 Markdown 编辑器
 
 <!-- _class: cols-2-64 navbar -->
 <!-- _header: \ ***@Awesome Marp*** *关于模板* *封面页* *目录页* *分栏与分列* *引用盒子* *导航栏* **基础知识**-->
@@ -723,10 +777,6 @@ Awesome Marp v1.1 提供了 4 种列表分列的方式，分别为：
 </div>
 
 <div class=rdiv>
-
-**Typora**
-- [Typora 主页](https://typora.io/)
-- v1.1 之前：完全免费；v1.1 之后：$14.99 三大平台一次性买断制
 
 **Obsidian**
 - [Obsidian 主页](https://obsidian.md/)

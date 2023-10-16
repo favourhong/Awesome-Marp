@@ -8,10 +8,10 @@
 
 
 :root{
-  --font-family-main: 'Latin Modern Math','Adobe Garamond','方正宋刻本秀楷简体','华文中宋','霞鹜文楷 屏幕阅读版';  
-  --font-family-title: 'Optima LT Medium','方正苏新诗柳楷简体'; 
-  --font-family-footer: 'Charm','叶根友毛笔行书修正版','方正苏新诗柳楷简体' ;
-  --font-family-code: 'Fira Code','HYMingChanKeBen W','霞鹜文楷等宽','华文中宋';
+  --font-family-main: 'Latin Modern Math','Adobe Garamond','方正宋刻本秀楷简体','Calibri','楷体','华文中宋','楷体','霞鹜文楷 屏幕阅读版';  
+  --font-family-title: 'Optima LT Medium','Arial','方正苏新诗柳楷简体','黑体'; 
+  --font-family-footer: 'Charm','Calibri','叶根友毛笔行书修正版','方正苏新诗柳楷简体','楷体';
+  --font-family-code: 'Fira Code','HYMingChanKeBen W','Consolas','霞鹜文楷等宽','华文中宋','宋体';
   --font-size-1: 55px;
   --foot-size-subtitle: 42px;
   --font-size-2-3: 38px; 
@@ -1368,7 +1368,7 @@ section.fixedtitleB {
       "slideheading"
       "content";
 }
-section.fixedtitleB h2, h3, h4, h5{
+section.fixedtitleB>h2, section.fixedtitleB>h3, section.fixedtitleB>h4, section.fixedtitleB>h5{
   grid-area: slideheading;
   position: absolute;
   padding: 10px;
@@ -1380,3 +1380,90 @@ section.fixedtitleB h2, h3, h4, h5{
 section.fixedtitleB .div {
   grid-area: content;
 } 
+
+section.footnote {
+  display: grid;
+  gap: 0.7em;
+  grid-template-rows: 1fr auto;
+  grid-template-areas: "content" "footnote";
+} 
+section.footnote .tdiv {
+  grid-area: "content"; 
+  justify-content: start;
+}
+section.footnote .tdiv>h2,section.footnote .tdiv>h3,section.footnote .tdiv>h4,section.footnote .tdiv>h5 {
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+section.footnote .bdiv {
+  grid-area: "footnote";
+  font-size: 85%;
+  bottom: 5%;
+}
+section.footnote .bdiv::before {
+  border-top: 1.8px dashed var(--color-coverbg);
+  content: "";
+  display: block;
+  margin-bottom: 1em;
+}
+
+section.tinytext>p, section.tinytext>ul, section.tinytext>ol, section.tinytext>table, section.tinytext>blockquote {
+  font-size: 80%;
+}
+section.tinytext code {
+  font-size: 90%;
+}
+section.tinytext strong {
+  font-size: 100%;
+}
+section.tinytext em {
+  font-size: 90%;
+}
+section.tinytext pre {
+  font-size: 70%;
+}
+section.smalltext>p, section.smalltext>ul, section.smalltext>ol, section.smalltext>table, section.smalltext>blockquote {
+  font-size: 90%;
+}
+section.smalltext code {
+  font-size: 90%;
+}
+section.smalltext strong {
+  font-size: 100%;
+}
+section.smalltext em {
+  font-size: 90%;
+}
+section.smalltext pre {
+  font-size: 80%;
+}
+section.largetext>p, section.largetext>ul, section.largetext>ol, section.largetext>table, section.largetext>blockquote{
+  font-size: 115%;
+}
+section.largetext strong {
+  font-size: 100%;
+}
+section.largetext code {
+  font-size: 90%;
+}
+section.largetext em {
+  font-size: 90%;
+}
+section.largetext pre {
+  font-size: 105%;
+}
+section.hugetext>p, section.hugetext>ul, section.hugetext>ol, section.hugetext>table, section.hugetext>blockquote {
+  font-size: 130%;
+}
+section.hugetext strong {
+  font-size: 100%;
+}
+section.hugetext code {
+  font-size: 90%;
+}
+section.hugetext em {
+  font-size: 90%;
+}
+section.hugetext pre {
+  font-size: 120%;
+}
