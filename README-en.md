@@ -89,14 +89,13 @@ Not only that, but I've also designed 6 theme colors, and to switch between them
 ## How to use `Awesome Marp`?
 
 - How to use:
-	- **with VS Code**: Open the `Awesome-Marp` folder directly with VS Code.
-        - If you want to "use it as it is", you can just follow the Markdown source files I've shared and modify them accordingly.
-
-        - If you're not happy with some of the effects and want to fine-tune them, there are currently 6 CSS files under `Awesome-Marp/themes` that determine the final rendering of the Markdown source code, so you can try to change them!
-        
-        - If you are able to customize your CSS files, don't forget to add the path to your CSS files in `Awesome-Marp/.vscode/settings.json` before rendering.
+	- **With VS Code**: Open the `Awesome-Marp` folder directly with VS Code.
+		- If you want to "use it as it is", you can just follow the Markdown source files I've shared and modify them accordingly.
+    
+		- If you're not happy with some of the effects and want to fine-tune them, there are currently 6 CSS files under `Awesome-Marp/themes` that determine the final rendering of the Markdown source code, so you can try to change them!
+		- If you are able to customize your CSS files, don't forget to add the path to your CSS files in `Awesome-Marp/.vscode/settings.json` before rendering.
 	- **With Obsidian**: Install the [Marp Slides plugin](https://github.com/samuele-cozzi/obsidian-marp-slides) and configure the CSS path accordingly!
-
+	
 - Due to the concern of copyright infringement, you need to download the fonts and install them by yourself, the fonts used in Awesome Marp are:
 	- Text fonts: `Latin Modern Math', `方正宋刻本秀楷简体', if not installed, `Calibri' and `楷体' will be used by default.
     - Headline fonts: `Optima LT Medium', `方正苏新诗柳楷简体', if not installed, `Arial' and `黑体' will be used by default.
