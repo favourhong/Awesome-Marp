@@ -4,7 +4,7 @@ size: 16:9
 theme: am_blue
 paginate: true
 headingDivider: [2,3]
-footer: \ *初虹（山东财经大学）* *Awesome Marp：自定义 Marp 主题* *2023年10月16日（v1.2）*
+footer: \ *初虹（山东财经大学）chuhong* *Awesome Marp：自定义 Marp 主题* *2023年10月16日（v1.2）*
 ---
 
 <!-- _class: cover_a 
@@ -812,7 +812,7 @@ size: 16:9        # 设定页面比例，常见有 16:9 或 4:3，默认为16:9
 theme: gaia       # 切换主题，内置 3 种样式的主题，可以自定义主题
 paginate: true    # 开启页码
 headingDivider: 2 # 通过二级标题切分页面，省去手动换页的麻烦
-footer: 初虹（山东财经大学） # 设置页脚区域的内容，如果设定页眉的内容，则为 header
+footer: 初虹（山东财经大学） chuhong # 设置页脚区域的内容，如果设定页眉的内容，则为 header
 ---
 ```
 

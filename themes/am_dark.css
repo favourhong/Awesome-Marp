@@ -8,10 +8,10 @@
 
 
 :root{
-  --font-family-main: 'Latin Modern Math','Adobe Garamond','方正宋刻本秀楷简体','Calibri','楷体','华文中宋','楷体','霞鹜文楷 屏幕阅读版';  
-  --font-family-title: 'Optima LT Medium','Arial','方正苏新诗柳楷简体','黑体'; 
-  --font-family-footer: 'Charm','Calibri','叶根友毛笔行书修正版','方正苏新诗柳楷简体','楷体';
-  --font-family-code: 'Fira Code','HYMingChanKeBen W','Consolas','霞鹜文楷等宽','华文中宋','宋体';
+  --font-family-main: 'Calibri','霞鹜文楷 GB','楷体';  
+  --font-family-title: '阿里巴巴普惠体 3.0','黑体'; 
+  --font-family-footer: '阿里妈妈刀隶体','Calibri','楷体';
+  --font-family-code: 'Fira Code','Alibaba Sans','霞鹜文楷等宽','宋体';
   --font-size-1: 55px;
   --foot-size-subtitle: 42px;
   --font-size-2-3: 38px; 
