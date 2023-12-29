@@ -1,0 +1,20 @@
+/* @theme am_brown */
+
+@import 'am_template';
+
+:root {
+  --color-background: rgba(254, 176, 98, 0.1);
+  --color-code-bg: #f9f4ee;
+  --color-coverbg: #b2894c;
+  --color-few: #894cb2;
+  --color-footer: #8c8c8c;
+  --color-main: #1c2a39;
+  --color-much: #9a7641;
+  --color-navbar-bg: #f5ede2;
+  --color-navbar-font: rgb(108, 95, 91);
+  --color-title: rgb(255, 255, 255);
+  --color-trans: #cda974;
+  --filter-b: brightness(30%) contrast(70%) grayscale(100%);
+  --filter-c: brightness(0%) contrast(60%) grayscale(80%);
+  --filter-e: brightness(0%) contrast(70%) grayscale(100%);
+}
