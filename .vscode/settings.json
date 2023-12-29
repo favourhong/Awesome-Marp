@@ -7,5 +7,6 @@
     "./themes/am_dark.scss",
     "./themes/am_brown.scss",
     "./themes/am_purple.scss",
+    "./themes/am_template.scss",
   ]
 }
