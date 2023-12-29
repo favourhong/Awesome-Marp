@@ -1,11 +1,11 @@
 {
-    "markdown.marp.enableHtml": true,
-    "markdown.marp.themes": [
-      "./themes/am_blue.css",
-      "./themes/am_green.css",
-      "./themes/am_red.css",
-      "./themes/am_dark.css",
-      "./themes/am_brown.css",
-      "./themes/am_purple.css",
-    ]
+  "markdown.marp.enableHtml": true,
+  "markdown.marp.themes": [
+    "./themes/am_blue.scss",
+    "./themes/am_green.scss",
+    "./themes/am_red.scss",
+    "./themes/am_dark.scss",
+    "./themes/am_brown.scss",
+    "./themes/am_purple.scss",
+  ]
 }
