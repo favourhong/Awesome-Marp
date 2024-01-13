@@ -1,6 +1,6 @@
 [✨ README-en](https://github.com/favourhong/Awesome-Marp/blob/main/README-en.md)、[🎉 README-zh](https://github.com/favourhong/Awesome-Marp/blob/main/README.md)
 
-## Awesome Marp: A full set of custom Marp themes 
+## Awesome Marp: Easily replace LaTeX Beamer!
 
 ## Why `Awesome Marp`?
 
@@ -8,7 +8,7 @@ I haven't made a PowerPoint presentation in over two years, ever since I learned
 
 The built-in native theme of `Marp` has few styles and the presentation effect is not good, so I've been trying to customize the CSS file to create a theme that meets my personal aesthetics, and this template has gained a lot of popularity among several friends while I've been working on it. So I simply shared it in the hopes that it would help you in some way~ 
 
-I gave this theme a name, `Awesome Marp`, it's kind of a stage summary. The current v1.2 version provides six themes (dark, green, blue, red, purple and brown) and 30 custom styles.
+I gave this theme a name, `Awesome Marp`, it's kind of a stage summary. The current v1.3 version provides six themes (dark, green, blue, red, purple and brown) and 38 custom styles.
 
 First, let's take a look at a rendering~
 
@@ -24,23 +24,17 @@ There are only three: the Markdown syntax, the Markdown editor ([Visual Studio C
 
 - Markdown 
 
-![](./images/Markdown.png)
-
 - Markdown editors (e.g. VS Code, Obsidian)
 
 - Marp
 
-![](./images/Marp1.png)
-
-![](./images/Marp2.png)
-
 ## A few features of `Awesome Marp`
 
-- Supports 6 types of **page columns**: 2-column 5/5, 2-column 6/4, 2-column 7/3, 2-column 4/6, 2-column 3/7, and 3-column 3/3.
+- Supports 8 types of **page columns**: 2-column 5/5, 2-column 6/4, 2-column 7/3, 2-column 4/6, 2-column 3/7,  3-column 3/3，2-rows.
 
 ![4种页面分栏的呈现效果](./images/页面分栏.gif)
 
-- Support 4 **non-nested lists of column** styles:
+- Support 6 **non-nested lists of column** styles:
 
 ![list列表分栏呈现的效果](./images/列表分栏.gif)
 
@@ -60,11 +54,7 @@ There are only three: the Markdown syntax, the Markdown editor ([Visual Studio C
 
 ![5种自定义引用盒子的呈现效果](./images/引用盒子.gif)
 
-- For something more like LaTeX Beamer, which requires the title line to be fixed to display at the top of the page, I also support two effects:
 
-![固定标题行+无底色](./images/固定标题行fixedtitleA.PNG)
-
-![固定标题行+有底色](./images/固定标题行fixedtitleB.PNG)
 
 - Little easter: the link automatically adds a little tail:
 
@@ -76,9 +66,9 @@ There are only three: the Markdown syntax, the Markdown editor ([Visual Studio C
 	- Pictures are horizontally left-aligned: `! [#l](. /images/a.png)`
 - …… 
 
-To summarize, there are currently 30 custom styles like the one above supported in `Awesome Marp` 1.2! To use them, you just need to specify a local directive on the page, e.g. `<! -- _class: trans -->`)
+To summarize, there are currently 38 custom styles like the one above supported in `Awesome Marp` 1.3! To use them, you just need to specify a local directive on the page, e.g. `<! -- _class: trans -->`)
 
-![30 种自定义样式](./images/30种自定义样式.png)  
+![38 种自定义样式](./images/38种自定义样式.png)  
 
 Not only that, but I've also designed 6 theme colors, and to switch between them, all you need to do is define `theme: <theme_name>` in the YAML section:
 
@@ -103,6 +93,10 @@ Not only that, but I've also designed 6 theme colors, and to switch between them
     - Code fonts: `Fira Code` and `霞鹜文楷等宽`, if not installed, `Consolas` and `华文中宋` will be used by default.
 
 ## Update Record
+
+- `January 13, 2024` Awesome Marp v1.3 
+  - 38 customizable styles 
+  - Add two rows of columns, character columns, etc.
 
 - `October 16, 2023` Awesome Marp v1.2
   - 30 Custom Styles

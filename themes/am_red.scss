@@ -1,0 +1,20 @@
+/* @theme am_red */
+
+@import 'am_template';
+
+:root {
+  --color-code-bg: #f6eeef;
+  --color-coverbg: #a7535a;
+  --color-few: #53a7a0;
+  --color-footer: #8c8c8c;
+  --color-main: #211112;
+  --color-much: #864248;
+  --color-navbar-bg: #edddde;
+  --color-navbar-font: rgb(108, 95, 91);
+  --color-quote: rgba(254, 176, 98, 0.1);
+  --color-title: rgb(255, 255, 255);
+  --color-trans: #b9757b;
+  --filter-b: brightness(30%) contrast(70%) grayscale(100%);
+  --filter-c: brightness(0%) contrast(60%) grayscale(80%);
+  --filter-e: brightness(0%) contrast(70%) grayscale(100%);
+}

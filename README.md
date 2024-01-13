@@ -1,7 +1,7 @@
 
 [✨ README-en](https://github.com/favourhong/Awesome-Marp/blob/main/README-en.md)、[🎉 README-zh](https://github.com/favourhong/Awesome-Marp/blob/main/README.md)
 
-# Awesome Marp：一整套自定义 Marp 主题
+# Awesome Marp：轻松取代 LaTeX Beamer！
 
 ## 为什么要做 Awesome Marp？
 
@@ -9,7 +9,7 @@
 
 Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以一直以来我也在尝试自定义 CSS 文件，来打造符合个人审美的 theme。我在边改造边用的过程中，这套模板也得到了几位朋友的喜爱。于是索性分享出来，希望能给到你一些帮助~ 
 
-我给这套主题还起了个名字，`Awesome Marp`，算是一个阶段性总结吧。目前 v1.2 版本提供了 6 种主题（分别是深色、绿色、蓝色、红色、紫色和棕色）和 30 种自定义样式。
+我给这套主题还起了个名字，`Awesome Marp`，算是一个阶段性总结吧。目前 v1.3版本提供了 6 种主题（分别是深色、绿色、蓝色、红色、紫色和棕色）和 38 种自定义样式。
 
 首先，先来看一张效果动图吧~
 
@@ -24,25 +24,19 @@ Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以
 
 就三样：用到的工具：软件 [Visual Studio Code](https://code.visualstudio.com) 或 [Obsidian](https://obsidian.md/)、[Marp for VScode（插件）](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)！
 
-- Markdown 
-
-![](./images/Markdown.png)
+- Markdown 是一种**极轻量**的文本标记语言，允许人们使用***\*易读易写\****的纯文本格式编写文档，而且对于表格、代码、图片、公式等支持良好，在网站搭建、课程笔记/讲义、演示文稿、撰写学术论文等方面应用极为广泛。
 
 - Markdown 编辑器（如 VS Code、Obsidian）
 
-- Marp
-
-![](./images/Marp1.png)
-
-![](./images/Marp2.png)
+- Marp 是使用 Markdown 创作演示文稿的工具。
 
 ## Awesome Marp 的几个特色
 
-- 支持 6 种**页面分栏**的样式：分别是两栏五五分、两栏六四分、两栏七三分、两栏四六分、两栏三七分和三栏三三分
+- 支持 8 种**页面分栏**的样式：分别是两栏五五分、两栏六四分、两栏七三分、两栏四六分、两栏三七分、三栏三三分、两行分栏和品字型分栏
 
 ![4种页面分栏的呈现效果](./images/页面分栏.gif)
 
-- 支持 4 种**非嵌套列表的分栏**样式：
+- 支持 6 种**非嵌套列表的分栏**样式：两列+有序列表+方形序号、两列+有序列表+圆形序号、两列+无序列表+方形序号、两列+无序列表+圆形序号、单列+有序列表+方形序号、单列+有序列表+圆形序号
 
 ![list列表分栏呈现的效果](./images/列表分栏.gif)
 
@@ -62,11 +56,7 @@ Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以
 
 ![5种自定义引用盒子的呈现效果](./images/引用盒子.gif)
 
-- 如果想要更像 LaTeX Beamer，需要将标题行固定在页面顶部显示，我也支持了两种效果：
 
-![固定标题行+无底色](./images/固定标题行fixedtitleA.PNG)
-
-![固定标题行+有底色](./images/固定标题行fixedtitleB.PNG)
 
 - 小彩蛋：链接会自动增加一个小尾巴：
 
@@ -78,9 +68,9 @@ Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以
 	- 图片水平居左对齐：`![#l](./images/a.png)` 
 - …… 
 
-总结一下，像上面的这样的自定义样式，目前 Awesome Marp 1.2 版本一共支持 30 个！使用时只需要在页面指定局部指令，比如： `<!-- _class: trans -->`）
+总结一下，像上面的这样的自定义样式，目前 Awesome Marp 1.3 版本一共支持 38 个！使用时只需要在页面指定局部指令，比如： `<!-- _class: trans -->`）
 
-![30 种自定义样式](./images/30种自定义样式.png)  
+![38 种自定义样式](./images/38种自定义样式.png)  
 
 不光如此，我还设计了 6 种主题色，想要切换 theme，只需要可在 YAML 区定义 `theme: <theme_name>`：
 
@@ -103,8 +93,11 @@ Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以
   - 脚注字体：`Charm` 和 `叶根友毛笔行书修正版`，如果未安装，默认将使用 `Calibri` 和 `楷体`
   - 代码字体：`Fira Code` 和 `霞鹜文楷等宽`，如果未安装，默认将使用 `Consolas` 和 `华文中宋`
 
-
 ## 更新记录
+
+- `2024年1月13日` Awesome Marp v1.3 
+  - 38 种自定义样式 
+  - 增加两行分栏、品字型分栏等
 
 - `2023年10月16日` Awesome Marp v1.2
   - 30 种自定义样式
