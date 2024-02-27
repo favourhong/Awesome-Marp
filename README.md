@@ -115,4 +115,6 @@ Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以
 
 创作不易，buy me a coffee 🤙~ 
 
-<img src="https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309240907419.png" style="zoom:50%;" />
+
+<img alt="WeChatPay" src="https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309240907419.png" width="200"/>
+

@@ -114,4 +114,4 @@ I hope it's helpful to you, welcome to exchange ~
 
 It is not easy to create, buy me a coffee 🤙~
 
-<img src="https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309240907419.png" style="zoom:50%;" />
+<img alt="WeChatPay" src="https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309240907419.png" width="200"/>
