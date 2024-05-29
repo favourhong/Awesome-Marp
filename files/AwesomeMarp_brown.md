@@ -102,9 +102,10 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 ## 1. 关于模板：更新日志
 
-- [Awesome Marp：我开发了一整套 Marp 主题，Markdown 转换的 PPT 也可以很好看！](https://mp.weixin.qq.com/s?__biz=MzkwOTE3NDExOQ==&mid=2247486787&idx=1&sn=2652ddae81f50240844cb652780912e1&chksm=c13ff94bf648705da1ba986b91265e3ff018acaffcfa60d7807a81be22176005e7a2b4483627&scene=178&cur_album_id=3132459596339757070#rd)
+- [Awesome Marp v1.0：我开发了一整套 Marp 主题，Markdown 转换的 PPT 也可以很好看！](https://mp.weixin.qq.com/s?__biz=MzkwOTE3NDExOQ==&mid=2247486787&idx=1&sn=2652ddae81f50240844cb652780912e1&chksm=c13ff94bf648705da1ba986b91265e3ff018acaffcfa60d7807a81be22176005e7a2b4483627&scene=178&cur_album_id=3132459596339757070#rd)
 - [Awesome Marp v1.1：标题行不随正文浮动，这下更像 Beamer 了！](https://mp.weixin.qq.com/s?__biz=MzkwOTE3NDExOQ==&mid=2247486800&idx=1&sn=527348e242576079e4bd6cd1823c823a&chksm=c13ff958f648704e40a202db6ad5fa215ef4c189d66403e161d6ace9828406a8747ac755684f&scene=178&cur_album_id=3132459596339757070#rd)
 - [Awesome Marp v1.2：增加脚注、调节字体大小等样式～](https://mp.weixin.qq.com/s?__biz=MzkwOTE3NDExOQ==&mid=2247486825&idx=1&sn=56d632ce164831438ec87c1b20ed4c4c&chksm=c13ff961f64870774f069ab816340783d8f54fd6b89363b8d9412c593efc640851ce9edd8833&scene=178&cur_album_id=3132459596339757070#rd) 
+- [Awesome Marp v1.3：几处小更新～](https://mp.weixin.qq.com/s?__biz=MzkwOTE3NDExOQ==&mid=2247486869&idx=1&sn=fcc377ff6a5930436e5078a09d53f0ab&chksm=c13ff99df648708b89bafba030b27909d0022279e26da723ca54a1666fe55f50a4230f050662&scene=178&cur_album_id=3132459596339757070#rd)
 
 
 ## 下面让我们看看效果吧 ~  
@@ -154,8 +155,9 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 <!-- _class: cover_c -->
 <!-- _paginate: "" -->
-<!-- _footer: 克明峻德，格物致知 -->
-<!-- _header: ![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231557236.png) -->
+<!-- _footer: 厚德博学 经济匡时 -->
+<!-- _header: ![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202405291116463.png) -->
+
 
 # <!-- fit -->Awesome Marp：轻松取代 LaTeX Beamer！
 
@@ -171,7 +173,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 <!-- _class: cover_d -->
 <!-- _paginate: "" -->
-<!-- _footer: "克明峻德，格物致知" -->
+<!-- _footer: "厚德博学 经济匡时" -->
 
 # <!-- fit -->Awesome Marp：轻松取代 LaTeX Beamer！
 
@@ -187,8 +189,8 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 <!-- _class: cover_e -->
 <!-- _paginate: "" -->
-<!-- _footer: ![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231557236.png) -->
-<!-- _header: ![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231558983.png) -->
+<!-- _footer: ![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202405291116463.png) -->
+<!-- _header: ![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202405291053273.png) -->
 
 
 # <!-- fit -->Awesome Marp：轻松取代 LaTeX Beamer！
@@ -236,7 +238,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 ---
 
-<!-- _header: 目录<br>CONTENTS<br>![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231558983.png)-->
+<!-- _header: 目录<br>CONTENTS<br>![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202405291053273.png)-->
 <!-- _class: toc_b -->
 <!-- _footer: "" -->
 <!-- _paginate: "" -->

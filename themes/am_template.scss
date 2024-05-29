@@ -221,9 +221,16 @@ strong {
   font-weight: bolder;
   color: var(--color-much);
 }
-em {
+st {
   font-size: 0.9rem;
   font-style: normal;
+}
+em {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+ins {
+  text-decoration-color: var(--color-much);
 }
 
 img {
@@ -328,14 +335,14 @@ section.cover_e footer>img {
   transform: scale(1.2);
   background-color: rgba(255, 255, 255, 0);
   background-blend-mode: lighten;
-  filter: brightness(500%) grayscale(100%);
+  filter: brightness(2000%) grayscale(60%);
 } 
 
 section.cover_e header>img {
-  transform: scale(0.72);
+  transform: scale(0.88);
   background-color: rgba(255, 255, 255, 0);
   background-blend-mode: lighten;
-  filter: brightness(5000%) grayscale(100%);
+  filter: brightness(3000%) grayscale(100%);
 } 
 
 section.cover_e a::after {
@@ -464,10 +471,10 @@ section.cover_c footer {
 section.cover_c header {
   background-color: rgba(255, 255, 255, 0);
   background-blend-mode: lighten;    
-  height: 100px; 
-  width: 350px;
+  height: 150px; 
+  width: 380px;
   text-align: left;
-  padding: 0 4%;
+  padding: 2% 4%;
 }
 
 section.cover_d {
@@ -635,7 +642,7 @@ section.toc_b img {
   background-blend-mode: lighten;  
   padding-top: 30px;
   width: 70%;
-  filter: brightness(500%)  grayscale(100%);
+  filter: brightness(1000%)  grayscale(100%);
 }
 
 section.fglass ul {
