@@ -29,6 +29,7 @@ section {
   font-size: var(--font-size-main);
   color: var(--color-main);
   text-align: justify; 
+  display: flex;
   }
 
 h1 {
@@ -1600,70 +1601,64 @@ section.footnote .bdiv::before {
   margin-bottom: 1em;
 }
 
-section.tinytext>p, section.tinytext>ul, section.tinytext>ol, section.tinytext>table, section.tinytext>blockquote {
-  font-size: 80%;
+/*
+:root {
+  ...
+  --font-size-1: 55px;
+  --foot-size-subtitle: 42px;
+  --font-size-2-3: 38px;
+  --font-size-4-5: 30px;
+  --font-size-main: 25px;
+  --font-size-footer: 22px;
+  --font-size-code: 22px;
+  --font-size-page: 12px;
 }
-section.tinytext code {
-  font-size: 90%;
-}
-section.tinytext strong {
-  font-size: 100%;
-}
-section.tinytext em {
-  font-size: 90%;
-}
-section.tinytext pre {
-  font-size: 70%;
-}
-section.smalltext>p, section.smalltext>ul, section.smalltext>ol, section.smalltext>table, section.smalltext>blockquote {
-  font-size: 90%;
-}
-section.smalltext code {
-  font-size: 90%;
-}
-section.smalltext strong {
-  font-size: 100%;
-}
-section.smalltext em {
-  font-size: 90%;
-}
-section.smalltext pre {
-  font-size: 80%;
-}
-section.largetext>p, section.largetext>ul, section.largetext>ol, section.largetext>table, section.largetext>blockquote{
-  font-size: 115%;
-}
-section.largetext strong {
-  font-size: 100%;
-}
-section.largetext code {
-  font-size: 90%;
-}
-section.largetext em {
-  font-size: 90%;
-}
-section.largetext pre {
-  font-size: 105%;
-}
-section.hugetext>p, section.hugetext>ul, section.hugetext>ol, section.hugetext>table, section.hugetext>blockquote {
-  font-size: 130%;
-}
-section.hugetext strong {
-  font-size: 100%;
-}
-section.hugetext code {
-  font-size: 90%;
-}
-section.hugetext em {
-  font-size: 90%;
-}
-section.hugetext pre {
-  font-size: 120%;
+*/
+
+section.tinytext {
+  /* 0.8x */
+  --font-size-1: 44px;
+  --foot-size-subtitle: 34px;
+  --font-size-2-3: 30px;
+  --font-size-4-5: 24px;
+  --font-size-main: 20px;
+  --font-size-footer: 18px;
+  --font-size-code: 18px;
+  --font-size-page: 10px;
 }
 
+section.smalltext {
+  /* 0.9x */
+  --font-size-1: 50px;
+  --foot-size-subtitle: 38px;
+  --font-size-2-3: 34px;
+  --font-size-4-5: 27px;
+  --font-size-main: 23px;
+  --font-size-footer: 20px;
+  --font-size-code: 20px;
+  --font-size-page: 11px;
+}
 
+section.largetext {
+  /* 1.15x */
+  --font-size-1: 63px;
+  --foot-size-subtitle: 48px;
+  --font-size-2-3: 44px;
+  --font-size-4-5: 35px;
+  --font-size-main: 29px;
+  --font-size-footer: 25px;
+  --font-size-code: 25px;
+  --font-size-page: 14px;
+}
 
-
-
-
-
+section.hugetext {
+  /* 1.3x */
+  --font-size-1: 72px;
+  --foot-size-subtitle: 55px;
+  --font-size-2-3: 49px;
+  --font-size-4-5: 39px;
+  --font-size-main: 33px;
+  --font-size-footer: 29px;
+  --font-size-code: 29px;
+  --font-size-page: 16px;
+}
