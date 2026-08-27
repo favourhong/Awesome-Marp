@@ -1600,7 +1600,7 @@ section.footnote .bdiv::before {
   margin-bottom: 1em;
 }
 
-section.tinytext>p, section.tinytext>ul, section.tinytext>ol, section.tinytext>table, section.tinytext>blockquote {
+section.tinytext>div, section.tinytext>p, section.tinytext>ul, section.tinytext>ol, section.tinytext>table, section.tinytext>blockquote {
   font-size: 80%;
 }
 section.tinytext code {
@@ -1615,7 +1615,7 @@ section.tinytext em {
 section.tinytext pre {
   font-size: 70%;
 }
-section.smalltext>p, section.smalltext>ul, section.smalltext>ol, section.smalltext>table, section.smalltext>blockquote {
+section.smalltext>div, section.smalltext>p, section.smalltext>ul, section.smalltext>ol, section.smalltext>table, section.smalltext>blockquote {
   font-size: 90%;
 }
 section.smalltext code {
@@ -1630,7 +1630,7 @@ section.smalltext em {
 section.smalltext pre {
   font-size: 80%;
 }
-section.largetext>p, section.largetext>ul, section.largetext>ol, section.largetext>table, section.largetext>blockquote{
+section.largetext>div, section.largetext>p, section.largetext>ul, section.largetext>ol, section.largetext>table, section.largetext>blockquote{
   font-size: 115%;
 }
 section.largetext strong {
@@ -1645,7 +1645,7 @@ section.largetext em {
 section.largetext pre {
   font-size: 105%;
 }
-section.hugetext>p, section.hugetext>ul, section.hugetext>ol, section.hugetext>table, section.hugetext>blockquote {
+section.hugetext>div, section.hugetext>p, section.hugetext>ul, section.hugetext>ol, section.hugetext>table, section.hugetext>blockquote {
   font-size: 130%;
 }
 section.hugetext strong {
